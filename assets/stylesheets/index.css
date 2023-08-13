@@ -9,32 +9,38 @@ body {
   /* width: 100%; */
 }
 .container {
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    width: 40%;
-	background-color: whitesmoke;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  background-color: whitesmoke;
 }
 .results-container {
-    width: 50%;
-    /* word-wrap: break-word; */
-	border-radius: 8px;
-	background-color: blue;
+  width: 50%;
+  /* word-wrap: break-word; */
+  border-radius: 8px;
+  background-color: blue;
+  color: whitesmoke;
 }
 .description {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+align-items:center;
 }
 .sum-btn-container {
-    width: 50%;
+  width: 50%;
+color:gray;
 }
 .card {
-    padding: 2% 3%;
-    display: flex;
-    flex-direction: column;
+  padding: 2% 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /*other screens*/
 
-@media screen and (max-width: 400px) {
-.container {
-width: 80%;
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 80%;
+  }
+}
