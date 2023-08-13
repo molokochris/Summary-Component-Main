@@ -12,6 +12,12 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./assets/stylesheets/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Results summary component</title>
 
@@ -30,7 +36,7 @@
     <div class="main-container">
       <div class="container">
         <div class="results-container card">
-          <span class="res">Your Result</span>
+          <span class="res head">Your Result</span>
           <span class="avrg-score">76 of 100</span>
           <div class="description">
             <span>Great</span>
@@ -40,12 +46,24 @@
             </span>
           </div>
         </div>
-        <div class="sum-btn-container  card">
-          <div>Summary</div>
-          <div>Reaction 80 / 100</div>
-          <div>Memory 92 / 100</div>
-          <div>Verbal 61 / 100</div>
-          <div>Visual 72 / 100</div>
+        <div class="sum-btn-container card">
+          <div class="head summary">Summary</div>
+          <div class="tab reaction-tab">
+            <span class="reaction">Reaction</span>
+            <span class="">80 / 100</span>
+          </div>
+          <div class="tab memory-tab">
+            <span class="memory">Memory</span>
+            <span class="">92 / 100</span>
+          </div>
+          <div class="tab verbal-tab">
+            <span class="verbal">Verbal</span>
+            <span class="">61 / 100</span>
+          </div>
+          <div class="tab visual-tab">
+            <span class="visual">Visual</span>
+            <span>72 / 100</span>
+          </div>
           <div>
             <button>Continue</button>
           </div>
