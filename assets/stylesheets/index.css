@@ -173,4 +173,7 @@ body {
   .tab {
     /* width: 90%; */
   }
+  .description {
+    padding: 3%;
+  }
 }
