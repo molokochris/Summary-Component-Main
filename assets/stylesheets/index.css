@@ -82,7 +82,7 @@ body {
   width: 90%;
   font-size: 18px;
   font-weight: 800;
-  margin: .6em;
+  margin: .8em;
   color: hsl(224, 30%, 27%);
 }
 .tab {
@@ -140,7 +140,7 @@ body {
   font-weight: 800;
   font-size: 14px;
   width: 90%;
-  margin-top: 8%;
+  margin: 2em 0;
 }
 .card {
   padding: 2% 4%;
