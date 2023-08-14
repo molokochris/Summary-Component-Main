@@ -47,6 +47,7 @@ body {
   /* background-color: hsla(256, 72%, 46%, 1); */
   border-radius: 100%;
   background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  margin-bottom: 6em;
 }
 .average {
   font-size: 60px;
@@ -77,7 +78,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   /* width: 85%; */
-  padding: .5em 3em;
+  padding: 0.5em 3em;
 }
 .summary {
   width: 90%;
