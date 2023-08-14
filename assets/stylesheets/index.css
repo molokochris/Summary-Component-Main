@@ -176,4 +176,7 @@ body {
   .description {
     padding: 3%;
   }
+  .bg-span {
+    margin-bottom: 20px;
+  }
 }
