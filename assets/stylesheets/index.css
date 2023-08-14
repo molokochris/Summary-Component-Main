@@ -183,8 +183,9 @@ body {
     margin: 0;
     padding: 1em 1%;
   }
-  .tab {
+  .avrg-score {
     /* width: 90%; */
+    margin-bottom: 2em;
   }
   .description {
     padding: 3%;
