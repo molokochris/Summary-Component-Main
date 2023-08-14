@@ -75,6 +75,8 @@ body {
 .head {
   font-weight: 800;
   font-size: 18px;
+  width: 85%;
+  padding: .5em 3em;
 }
 .summary {
   color: hsl(224, 30%, 27%);
@@ -83,7 +85,7 @@ body {
   display: flex;
   flex-direction: row;
   font-weight: 700;
-  padding: 1em 2em;
+  padding: 1em 1em;
   margin: 0.5em;
   /* width: 15em; */
   width: 80%;
