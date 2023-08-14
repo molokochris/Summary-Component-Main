@@ -138,15 +138,19 @@ body {
 }
 .btn {
   background-color: hsl(224, 30%, 27%);
-  padding: 5% 7em;
+  padding: 5% 32%;
   border: none;
   border-radius: 25px;
   color: hsl(0, 0%, 100%);
   font-weight: 800;
   font-size: 14px;
-  width: 88%;
+  /* width: 88%; */
   margin: 4em 0;
   /* word-spacing: 2%; */
+  text-align: center;
+}
+.btn:active {
+  background-color: hsl(241, 100%, 89%);
 }
 .card {
   padding: 2% 4%;
