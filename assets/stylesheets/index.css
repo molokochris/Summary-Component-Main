@@ -150,7 +150,7 @@ body {
   text-align: center;
 }
 .btn:active {
-  background-color: hsl(241, 100%, 89%);
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 .card {
   padding: 2% 4%;
