@@ -75,10 +75,14 @@ body {
 .head {
   font-weight: 800;
   font-size: 18px;
-  width: 85%;
+  /* width: 85%; */
   padding: .5em 3em;
 }
 .summary {
+  width: 90%;
+  font-size: 18px;
+  font-weight: 800;
+  margin: .6em;
   color: hsl(224, 30%, 27%);
 }
 .tab {
@@ -122,6 +126,10 @@ body {
 }
 .score {
   width: 50%;
+  text-align: end;
+}
+.variable-score {
+  color: hsl(224, 30%, 27%);
 }
 .btn {
   background-color: hsl(224, 30%, 27%);
@@ -151,7 +159,7 @@ body {
 @media screen and (max-width: 400px) {
   .main-container {
     display: block;
-    height: 200vh;
+    height: auto;
   }
   .container {
     width: 100%;
