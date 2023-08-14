@@ -133,13 +133,13 @@ body {
 }
 .btn {
   background-color: hsl(224, 30%, 27%);
-  padding: 6% 7em;
+  padding: 5% 7em;
   border: none;
   border-radius: 25px;
   color: hsl(0, 0%, 100%);
   font-weight: 800;
   font-size: 14px;
-  width: 100%;
+  width: 90%;
   margin-top: 8%;
 }
 .card {
